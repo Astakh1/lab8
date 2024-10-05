@@ -10,4 +10,6 @@
     else
       isleap := True;
   Println($'Год является високосным: {isleap}');  
+  var minutes := ReadInteger('Введите минуты:');
+  Println($'В {minutes} = {60 * minutes} секунд');
 end.
